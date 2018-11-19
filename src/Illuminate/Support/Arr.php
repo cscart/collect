@@ -4,6 +4,8 @@ namespace Illuminate\Support;
 
 use ArrayAccess;
 use Illuminate\Support\Traits\Macroable;
+use function Illuminate\Support\Utils\value;
+use function Illuminate\Support\Utils\data_get;
 
 class Arr
 {

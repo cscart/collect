@@ -13,6 +13,9 @@ use InvalidArgumentException;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Contracts\Support\Arrayable;
+use function Illuminate\Support\Utils\value;
+use function Illuminate\Support\Utils\data_get;
+use function Illuminate\Support\Utils\with;
 
 class Collection implements ArrayAccess, Arrayable, Countable, IteratorAggregate, Jsonable, JsonSerializable
 {
